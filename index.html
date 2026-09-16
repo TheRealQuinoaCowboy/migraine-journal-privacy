@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Migraine Journal — Privacy &amp; Support</title>
+  <meta name="description" content="Privacy policy and support for Migraine Journal, an on-device iPhone wellness journal. Data Not Collected.">
+  <style>
+    :root {
+      --bg: #f4f6f8;
+      --card: #ffffff;
+      --ink: #1f2933;
+      --muted: #5b6573;
+      --accent: #4a6fa5;
+      --stroke: #d5dce3;
+      --focus: #2f4d73;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.55;
+    }
+    main {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 3rem;
+    }
+    h1 { font-size: 1.75rem; font-weight: 650; margin: 0 0 0.35rem; }
+    h2 { font-size: 1.2rem; margin: 1.75rem 0 0.6rem; }
+    p, li { color: var(--ink); }
+    .muted { color: var(--muted); }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--stroke);
+      border-radius: 18px;
+      padding: 1rem 1.1rem;
+      margin: 0.75rem 0;
+    }
+    a { color: var(--accent); }
+    label {
+      display: block;
+      font-weight: 600;
+      margin: 0.85rem 0 0.35rem;
+    }
+    input, textarea {
+      width: 100%;
+      font: inherit;
+      color: var(--ink);
+      background: var(--bg);
+      border: 1px solid var(--stroke);
+      border-radius: 12px;
+      padding: 0.7rem 0.8rem;
+      min-height: 44px;
+    }
+    textarea { min-height: 8rem; resize: vertical; }
+    button {
+      display: inline-block;
+      margin-top: 1rem;
+      min-height: 44px;
+      padding: 0.7rem 1.2rem;
+      border: 0;
+      border-radius: 18px;
+      background: var(--accent);
+      color: #fff;
+      font: inherit;
+      font-weight: 650;
+      cursor: pointer;
+    }
+    button:focus, input:focus, textarea:focus {
+      outline: 3px solid var(--focus);
+      outline-offset: 2px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Migraine Journal</h1>
+    <p class="muted">Privacy policy and support. Also listed as Phases Migraine Journal. Personal wellness journal for iPhone. Not a medical device.</p>
+
+    <h2 id="privacy">Privacy policy</h2>
+    <p class="muted">Effective date: September 16, 2026</p>
+
+    <div class="card">
+      <p>Migraine Journal is a personal wellness journal that stays on your iPhone.</p>
+    </div>
+
+    <h2>Data collected by the developer</h2>
+    <div class="card">
+      <p>We do not collect, sell, share, or upload personal data. There is no account, no backend, no advertising, no analytics, and no crash service that receives journal content.</p>
+      <p>Apple App Store nutrition label: <strong>Data Not Collected</strong>. Tracking is off (<code>NSPrivacyTracking</code> is false).</p>
+    </div>
+
+    <h2>What stays on your iPhone</h2>
+    <div class="card">
+      <p>Journal entries (times, phase checklists, severity, and notes) are stored in an on-device SwiftData database. Optional Face ID / passcode lock and the Appearance setting are preference flags only.</p>
+      <p>The app does not enable iCloud, CloudKit, or HealthKit.</p>
+    </div>
+
+    <h2>App lock</h2>
+    <div class="card">
+      <p>Face ID, Touch ID, or device passcode can be required to open the journal. This is off by default. Biometrics stay with the system. The app never sees or stores your Face ID, Touch ID, or passcode.</p>
+    </div>
+
+    <h2>Backups and deletion</h2>
+    <div class="card">
+      <p>The app does not sync. If you want a copy, use Settings → Share PDF or Share CSV. iOS Share Sheet lets you choose where the file goes. Those destinations are outside this app.</p>
+      <p>Delete journal entries with Settings → Delete all check-ins, or delete the app. Deleting the app deletes the on-device journal.</p>
+    </div>
+
+    <h2>Children</h2>
+    <div class="card">
+      <p>The app is not directed at children and does not collect data from anyone.</p>
+    </div>
+
+    <h2>Medical</h2>
+    <div class="card">
+      <p>This is not a medical device and does not diagnose, treat, cure, or prevent any condition. It is not a substitute for professional medical care.</p>
+    </div>
+
+    <h2 id="support">Support</h2>
+    <div class="card">
+      <p>Contact us using the form on this page. There is no email address published for this app.</p>
+      <form action="https://formspree.io/f/xyezgdvp" method="POST">
+        <label for="name">Name (optional)</label>
+        <input id="name" type="text" name="name" maxlength="120" autocomplete="name">
+
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" required autocomplete="email">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required maxlength="2000"></textarea>
+
+        <button type="submit">Send message</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
